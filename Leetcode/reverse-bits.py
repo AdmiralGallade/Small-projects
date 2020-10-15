@@ -12,6 +12,7 @@ class Solution:
         reversed= reversed[::-1]
 
         reversed= str("".join(map(str,reversed)))
+        print(reversed+'\n')
         #return reversed
         return int(reversed,2)
 
