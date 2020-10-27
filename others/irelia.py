@@ -8,13 +8,14 @@ x=2000
 #     print("Attack ", i," reduced health to " , floor(x))
 
 
-x_axis= np.arange(0,2200,200).tolist()
+x_axis= np.arange(0,2000,200).tolist()
 
 y_axis= list(range(1,11,1))
 y_axis.reverse()
 
 print( x_axis,"\n",y_axis)
 
-plt.pyplot(x_axis,y_axis)
+
+plt.plot(x_axis,y_axis)
 plt.figure()
 
